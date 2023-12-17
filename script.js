@@ -2,7 +2,7 @@ function createGrid() {
     const gridContainerDiv = document.querySelector(".EAS-container");
     const gridCreationButton = document.querySelector(".grid-creation-button")
     const allGridVerticalDivs = document.querySelectorAll(".gridverticalDivs")
-    gridContainerDiv.style.width = "700px";
+    gridContainerDiv.style.width = "960px";
     gridContainerDiv.style.height = "30px";
 
     const userColorChoice = prompt('Please pick a color');
